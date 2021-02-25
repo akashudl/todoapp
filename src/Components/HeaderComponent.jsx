@@ -14,7 +14,7 @@ class Header extends Component
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
        <div className="navbar-brand"><a href="https://www.google.com/">Google.com</a></div>
        <ul className="navbar-nav">
-         {isUserloggedIN && <li className="nav-link"><Link to="/welcome/Akash Bhaiya">Home</Link></li>}
+         {isUserloggedIN && <li className="nav-link"><Link to="/welcome/Akash Pandit">Home</Link></li>}
          {isUserloggedIN && <li className="nav-link"><Link to="/todo">Todos</Link></li>}
          </ul>
          <ul className="navbar-nav navbar-collapse justify-content-end">
