@@ -58,7 +58,7 @@ class LoginComponent extends Component
             <input type="text" name ="username" onChange={this.handlevent}/><br>
             </br>
             <p>Enter the password</p>
-            <input type="text" name="password" onChange={this.handlevent}/> <br>
+            <input type="password" name="password" onChange={this.handlevent}/> <br>
             </br>
             <button onClick={this.check} className="button">SUBMIT</button>
             <Showinvalidcreditianl 
